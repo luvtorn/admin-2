@@ -1,0 +1,45 @@
+body {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(132, 255, 0));
+    font-family: 'Tilt Neon', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid purple;
+    border-radius: 20px;
+    padding: 50px 30px;
+    top: 320px;
+    left: 820px;
+}
+
+
+#login, #password {
+    width: 200px;
+    margin-bottom: 15px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Tilt Neon', cursive;
+    background-color: rgb(76, 0, 78);
+}
+.submit {
+    background-color: #8f00c7;
+    padding: 5px 30px;
+    border-radius: 10px;
+    transition: all .3s linear;
+    font-family: 'Tilt Neon', cursive;
+}
+.submit:hover {
+    background-color: #480064;
+}
+
+
+
